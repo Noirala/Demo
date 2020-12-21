@@ -1,0 +1,40 @@
+﻿<Window x:Class="DoeduSam.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DoeduSam"
+        mc:Ignorable="d"
+        MinHeight="400"
+        MinWidth="700"
+        Title="Доеду сам" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <DataGrid AutoGenerateColumns="False" Grid.Column="1" ItemsSource="{Binding MyProducts}">
+
+            <DataGrid.RowStyle>
+                <Style TargetType="DataGridRow">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Active}" Value="False">
+                            <Setter Property="Background" Value="LightGray"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.RowStyle>
+            
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Название" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="Цена" Binding="{Binding Price}"/>
+                <DataGridTextColumn Header="Активен" Binding="{Binding ActiveStr}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Orientation="Vertical" VerticalAlignment="Bottom">
+            <Button x:Name="CreateProductButton" Content="Добавить товар" Click="CreateProductButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
