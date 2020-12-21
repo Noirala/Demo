@@ -34,6 +34,14 @@ namespace DoeduSam
             }
         }
         public decimal Price { get; set; }
+        public String ExistingProduct
+        {
+            get
+            {
+                if (Id == 0) return "Collapsed";
+                return "Visible";
+            }
+        }
     
         public virtual Manufacturers Manufacturers { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

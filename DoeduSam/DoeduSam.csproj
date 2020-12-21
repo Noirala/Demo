@@ -97,6 +97,9 @@
     <Compile Include="ProductsSales.cs">
       <DependentUpon>DoeduSam.tt</DependentUpon>
     </Compile>
+    <Compile Include="ProductWindow.xaml.cs">
+      <DependentUpon>ProductWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="sysdiagrams.cs">
       <DependentUpon>DoeduSam.tt</DependentUpon>
     </Compile>
@@ -122,6 +125,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="ProductWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -183,6 +190,106 @@
       <DependentUpon>DoeduSam.edmx</DependentUpon>
       <LastGenOutput>DoeduSam.cs</LastGenOutput>
     </Content>
+    <Resource Include="Товары автосервиса\0070C563.jpg" />
+    <Resource Include="Товары автосервиса\022096CB.jpg" />
+    <Resource Include="Товары автосервиса\03D096CB.jpg" />
+    <Resource Include="Товары автосервиса\0D30C4EE.jpg" />
+    <Resource Include="Товары автосервиса\0D60A8A4.jpg" />
+    <Resource Include="Товары автосервиса\0DF0A8A4.jpg" />
+    <Resource Include="Товары автосервиса\21B0E533.jpg" />
+    <Resource Include="Товары автосервиса\23106A35.jpg" />
+    <Resource Include="Товары автосервиса\2390848B.jpg" />
+    <Resource Include="Товары автосервиса\23F0848B.jpg" />
+    <Resource Include="Товары автосервиса\27B0C883.jpg" />
+    <Resource Include="Товары автосервиса\2A109062.jpg" />
+    <Resource Include="Товары автосервиса\2B009062.jpg" />
+    <Resource Include="Товары автосервиса\2B609062.jpg" />
+    <Resource Include="Товары автосервиса\2D709062.jpg" />
+    <Resource Include="Товары автосервиса\2E00E06C.jpg" />
+    <Resource Include="Товары автосервиса\2E30E06C.jpg" />
+    <Resource Include="Товары автосервиса\2E60E06C.jpg" />
+    <Resource Include="Товары автосервиса\30E0C751.jpg" />
+    <Resource Include="Товары автосервиса\3760D73F.jpg" />
+    <Resource Include="Товары автосервиса\3970E753.jpg" />
+    <Resource Include="Товары автосервиса\39A0C188.jpg" />
+    <Resource Include="Товары автосервиса\39D0C188.jpg" />
+    <Resource Include="Товары автосервиса\3B70C57C.jpg" />
+    <Resource Include="Товары автосервиса\3DA0B713.jpg" />
+    <Resource Include="Товары автосервиса\3DF0E4BC.jpg" />
+    <Resource Include="Товары автосервиса\40409946.jpg" />
+    <Resource Include="Товары автосервиса\43909176.jpg" />
+    <Resource Include="Товары автосервиса\43C09176.jpg" />
+    <Resource Include="Товары автосервиса\43E08C52.jpg" />
+    <Resource Include="Товары автосервиса\45008C52.jpg" />
+    <Resource Include="Товары автосервиса\45908C52.jpg" />
+    <Resource Include="Товары автосервиса\47E07CB5.jpg" />
+    <Resource Include="Товары автосервиса\5180B90E.jpg" />
+    <Resource Include="Товары автосервиса\5250C855.jpg" />
+    <Resource Include="Товары автосервиса\54B0795D.jpg" />
+    <Resource Include="Товары автосервиса\59B0BE73.jpg" />
+    <Resource Include="Товары автосервиса\5A30A7EE.jpg" />
+    <Resource Include="Товары автосервиса\5BB0C351.jpg" />
+    <Resource Include="Товары автосервиса\5BE0C351.jpg" />
+    <Resource Include="Товары автосервиса\6080DCD5.jpg" />
+    <Resource Include="Товары автосервиса\63C09E91.jpg" />
+    <Resource Include="Товары автосервиса\6730A31C.jpg" />
+    <Resource Include="Товары автосервиса\6800BB8A.jpg" />
+    <Resource Include="Товары автосервиса\69C0CD62.jpg" />
+    <Resource Include="Товары автосервиса\6CA0BE73.jpg" />
+    <Resource Include="Товары автосервиса\6CE0A012.jpg" />
+    <Resource Include="Товары автосервиса\6DA0A012.jpg" />
+    <Resource Include="Товары автосервиса\6DD0A012.jpg" />
+    <Resource Include="Товары автосервиса\7B70B9C6.jpg" />
+    <Resource Include="Товары автосервиса\8430842A.jpg" />
+    <Resource Include="Товары автосервиса\85C04040.jpg" />
+    <Resource Include="Товары автосервиса\8BC0C1A9.jpg" />
+    <Resource Include="Товары автосервиса\8E20A863.jpg" />
+    <Resource Include="Товары автосервиса\8F609ED7.jpg" />
+    <Resource Include="Товары автосервиса\8F909ED7.jpg" />
+    <Resource Include="Товары автосервиса\8FE07916.jpg" />
+    <Resource Include="Товары автосервиса\90505D31.jpg" />
+    <Resource Include="Товары автосервиса\90A0B807.jpg" />
+    <Resource Include="Товары автосервиса\90D0B807.jpg" />
+    <Resource Include="Товары автосервиса\9290C1E7.jpg" />
+    <Resource Include="Товары автосервиса\92C0C1E7.jpg" />
+    <Resource Include="Товары автосервиса\9380C1E7.jpg" />
+    <Resource Include="Товары автосервиса\96E0C1E7.jpg" />
+    <Resource Include="Товары автосервиса\9750DA76.jpg" />
+    <Resource Include="Товары автосервиса\97809225.jpg" />
+    <Resource Include="Товары автосервиса\9B3075EB.jpg" />
+    <Resource Include="Товары автосервиса\AD00B713.jpg" />
+    <Resource Include="Товары автосервиса\B0A0C186.jpg" />
+    <Resource Include="Товары автосервиса\B0F0CB59.jpg" />
+    <Resource Include="Товары автосервиса\B590AA7B.jpg" />
+    <Resource Include="Товары автосервиса\B790A6AA.jpg" />
+    <Resource Include="Товары автосервиса\BA30C186.jpg" />
+    <Resource Include="Товары автосервиса\BD80E8D5.jpg" />
+    <Resource Include="Товары автосервиса\C310B9F3.jpg" />
+    <Resource Include="Товары автосервиса\C9C0F036.jpg" />
+    <Resource Include="Товары автосервиса\CC10C869.jpg" />
+    <Resource Include="Товары автосервиса\CC40C869.jpg" />
+    <Resource Include="Товары автосервиса\D0D08F32.jpg" />
+    <Resource Include="Товары автосервиса\D2508F32.jpg" />
+    <Resource Include="Товары автосервиса\D4D0CE67.jpg" />
+    <Resource Include="Товары автосервиса\D9605006.jpg" />
+    <Resource Include="Товары автосервиса\DC70BEC3.jpg" />
+    <Resource Include="Товары автосервиса\E0A0E079.jpg" />
+    <Resource Include="Товары автосервиса\E0D0E079.jpg" />
+    <Resource Include="Товары автосервиса\E320BB7C.jpg" />
+    <Resource Include="Товары автосервиса\E3A0B18A.jpg" />
+    <Resource Include="Товары автосервиса\E5507A37.jpg" />
+    <Resource Include="Товары автосервиса\E9308929.jpg" />
+    <Resource Include="Товары автосервиса\EF80D790.jpg" />
+    <Resource Include="Товары автосервиса\EFC05011.jpg" />
+    <Resource Include="Товары автосервиса\F160E078.jpg" />
+    <Resource Include="Товары автосервиса\F200BC2F.jpg" />
+    <Resource Include="Товары автосервиса\F2B0E078.jpg" />
+    <Resource Include="Товары автосервиса\F2E0E078.jpg" />
+    <Resource Include="Товары автосервиса\F310E078.jpg" />
+    <Resource Include="Товары автосервиса\F460E078.jpg" />
+    <Resource Include="Товары автосервиса\F490E078.jpg" />
+    <Resource Include="Товары автосервиса\F8E0B138.jpg" />
+    <Resource Include="Товары автосервиса\FA90B138.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
